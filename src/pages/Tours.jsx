@@ -1,22 +1,24 @@
 
 import React from 'react'
 import TopBanner from '../Components/TopBanner'
-import Bali from "../assets/Bali.jpeg"
-import Paris from "../assets/Paris.jpg"
-import Tokyo from "../assets/Tokyo.jpeg"
-import India from "../assets/India.jpeg"
-import Venice from "../assets/venice.webp"
+import chandenar from "../assets/chandenar.jpeg"
+import malangir from "../assets/malagir.jpeg"
+import nmdc from "../assets/nmdc.webp"
+import danteshwari from "../assets/danteshwari.jpeg"
+import thamada from "../assets/thamada.jpg"
+import tirathgarh from "../assets/tirathgarh.jpeg"
 import { Clock, Star } from 'lucide-react'
 
 const Tours = () => {
   const destinationJson = [
-    { name: 'Baliya', img: Bali, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Venice', img: Venice, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'India', img: India, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Paris', img: Paris, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-    { name: 'Tokyo', img: Tokyo, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
-  ]
+  { name: 'Thamada', img: thamada, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+  { name: 'Tirathgarh', img: tirathgarh, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+  { name: 'Chandenar', img: chandenar, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+  { name: 'Danteshwari', img: danteshwari, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+  { name: 'NMDC', img: nmdc, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+  { name: 'Malangir', img: malangir, time: '5 Days - 4 Nights', star: '3 (12 reviews)', price: '69,999' },
+];
+
   return (
     <>
       <TopBanner text='Tours' />

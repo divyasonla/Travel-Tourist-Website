@@ -19,7 +19,16 @@ const About = () => {
           
           </div>
           <h1 className='md:text-4xl font-bold mt-6 mb-4 text-3xl'>How We Are Best For Travel !</h1>
-          <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus incidunt aperiam vel laboriosam odio officia, tenetur iure qui? Officiis placeat iste ratione perspiciatis rerum sed magni commodi pariatur reiciendis dicta molestiae dolor tenetur, dolorem minus exercitationem quod adipisci, ad tempore. Suscipit iste impedit soluta omnis laborum quisquam eveniet. Eos ipsam sed eligendi architecto libero doloremque nobis fugit, asperiores molestiae ullam nulla mollitia quidem maxime totam delectus itaque? Quisquam impedit, cum quo tempore at velit? Voluptate rerum possimus vel numquam perspiciatis sint adipisci, veritatis ullam placeat, repellat similique ea pariatur officiis laborum eligendi porro eos perferendis consectetur, et ex tempore. Facilis, incidunt? Libero nostrum tempore repellat iste assumenda nulla doloremque similique sequi, facere tempora voluptates enim aspernatur quod voluptatibus tenetur dicta, nesciunt explicabo! Veritatis, officia a!</p>
+          <p className='text-gray-500'>
+            Bastar, located in the heart of Chhattisgarh, is a land of breathtaking waterfalls, 
+            dense forests, ancient temples, and vibrant tribal traditions. Known for its unique 
+            blend of natural beauty and cultural richness, Bastar is home to attractions like the 
+            Chitrakote and Tirathgarh waterfalls, the sacred Danteshwari Temple, and the lush 
+            Kanger Valley National Park. The region is also celebrated for its traditional crafts, 
+            dance forms, and festivals such as Bastar Dussehra, which reflects centuries of heritage 
+            and devotion. With its untouched landscapes and deep cultural roots, Bastar offers 
+            travelers an authentic experience of harmony between nature and tradition.
+          </p>
         </div>
         <div className='flex-1'>
           <div className='bg-white p-6 rounded-lg shadow-md'>
