@@ -1,19 +1,26 @@
 import React from 'react'
 
 // assets import
-import Bali from "../assets/Bali.jpeg"
-import Paris from "../assets/Paris.jpg"
-import Tokyo from "../assets/Tokyo.jpeg"
-import India from "../assets/India.jpeg"
-import Venice from "../assets/venice.webp"
+import chitrkot from "../assets/chitrkot.jpg"
+import barsur from "../assets/barsur.jpeg"
+import chandenar from "../assets/chandenar.jpeg"
+import malangir from "../assets/malagir.jpeg"
+import nmdc from "../assets/nmdc.webp"
+import danteshwari from "../assets/danteshwari.jpeg"
+import thamada from "../assets/thamada.jpg"
+import tirathgarh from "../assets/tirathgarh.jpeg"
 
 const images = [
-  { src: India, title: "India", desc: "The land of diversity and culture." },
-  { src: Bali, title: "Bali", desc: "Tropical paradise with beaches and temples." },
-  { src: Venice, title: "Venice", desc: "Famous for canals, gondolas, and architecture." },
-  { src: Paris, title: "Paris", desc: "The city of love and Eiffel Tower." },
-  { src: Tokyo, title: "Tokyo", desc: "Modern city blending tradition and technology." },
+  { src: malangir, title: "Malangir", desc: "A serene river in Bastar, known for its natural beauty and tranquility." },
+  { src: chitrkot, title: "Chitrakot", desc: "The majestic Chitrakote Waterfall, often called the Niagara of India." },
+  { src: nmdc, title: "NMDC", desc: "Bailadila mines by NMDC, famous for their rich iron ore reserves in Bastar." },
+  { src: barsur, title: "Barsur", desc: "An ancient town of temples, renowned for its archaeological heritage." },
+  { src: chandenar, title: "Chandenar", desc: "A picturesque village in Bastar, surrounded by lush forests and culture." },
+  { src: danteshwari, title: "Danteshwari", desc: "Home to the sacred Danteshwari Temple, a major Shakti Peeth of Bastar." },
+  { src: thamada, title: "Thamada", desc: "A natural waterfall in Bastar, a hidden gem for nature lovers." },
+  { src: tirathgarh, title: "Tirathgarh", desc: "A stunning tiered waterfall inside Kanger Valley National Park." },
 ];
+
 
 const GalleryComp = () => {
   return (
