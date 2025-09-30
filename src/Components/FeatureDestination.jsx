@@ -1,9 +1,5 @@
 import React from 'react'
-// import Bali from "../assets/Bali.jpeg"
-// import Paris from '../assets/Paris.jpg'
-// import Tokyo from "../assets/Tokyo.jpeg"
-// import India from "../assets/India.jpeg"
-// import Venice from "../assets/venice.webp"
+
 import chandenar from "../assets/chandenar.jpeg"
 import malangir from "../assets/malagir.jpeg"
 import nmdc from "../assets/nmdc.webp"
